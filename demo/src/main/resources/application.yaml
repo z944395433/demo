@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    database: 0
+    port: 6379
+    password:
+    host: 127.0.0.1
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 8
+    timeout: 5000
+
+
+
+
